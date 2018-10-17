@@ -1,0 +1,103 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+body{
+	background: #333333;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+section{
+	margin-top: 70px;
+}
+.container{
+	width: 500px;
+	margin: 0 auto;
+}
+.logo-part{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.logo-part img{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.logo-part p{
+    font-size: 22px;
+    color: #fff;
+} 
+.socil-part{
+    border: 1px solid beige;
+    padding: 22px;
+    margin: 22px;
+}
+.socil-part ul{
+    text-decoration: none;
+}
+.socil-part ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.socil-part ul li a{
+    background: wheat;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.socil-part ul li a.twitter{
+	background: #0C85D0;
+	border-radius: 5px;
+}
+.socil-part ul li a.Facebook{
+	background: #344E86;
+	border-radius: 5px;
+}
+.socil-part ul li a.google{
+	background: #2A75F3;
+	border-radius: 5px;
+}
+
+
+.signig-form{
+	border-top: 10px;
+	display: block;
+	width: 500px;
+
+}
+
+.signig-form label{
+	display: block;
+	font-size: 20px;
+	color: #E8EAED;
+
+
+}
+.signig-form input{
+	width: 100%;
+	padding: 8px;
+	border: 0px;
+	border-radius: 5px;
+	margin-bottom:15px;
+	
+}
+.signig-form input[type="submit"]{
+	background: #DF3E7B;
+	color:#fff;
+}
+.signig-form p{
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}
+.signig-form a{
+	color: #ddd;
+}
